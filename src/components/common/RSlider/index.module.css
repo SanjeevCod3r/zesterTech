@@ -1,0 +1,116 @@
+.slider {
+  margin-bottom: 2rem;
+}
+
+.slick-slide {
+  padding: 0 1rem;
+}
+
+.btnsWrapRight {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  z-index: 3;
+}
+
+.btnsWrapTop {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  transform: translateY(0);
+  display: flex;
+  row-gap: 4rem;
+  z-index: 3;
+}
+
+.btnPrev,
+.btnNext {
+  display: block;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: inherit;
+  padding: 0.4rem;
+}
+
+.btnPrev svg,
+.btnNext svg {
+  width: 30px;
+}
+
+.btnPrev svg {
+  transform: rotate(180deg);
+}
+
+.btnPrev:hover svg path,
+.btnNext:hover svg path {
+  fill: white;
+}
+
+.btnPrev:hover svg path,
+.btnNext:hover svg path {
+  fill: red;
+}
+
+.dots {
+  margin-top: 15rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.dotsItem {
+  font-size: var(--fs-large);
+  font-weight: var(--fw-semibold);
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.dotsItemLine {
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: var(--white-color);
+}
+
+.activeDotsItem {
+  opacity: 0.5;
+  font-size: var(--fs-h4);
+  transition: all 0.3s ease;
+}
+
+.activeDotsItem span {
+  opacity: 0.5;
+  width: 4rem;
+}
+
+@media (max-width: 500px) {
+  .btnsWrapRight {
+    top: 110%;
+    right: auto;
+    transform: translateY(-110%);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dots {
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .btnsWrapTop {
+    top: -35px;
+    right: auto;
+  }
+}

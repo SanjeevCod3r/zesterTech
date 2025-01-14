@@ -1,0 +1,37 @@
+.link {
+  position: relative;
+  display: flex;
+}
+
+.linkText {
+  color: var(--white-color);
+  font-weight: var(----fx-extra-bold);
+  line-height: 1.6;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  padding-right: 4rem;
+}
+
+.arrowIcon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.link:hover .arrowIcon {
+  animation: arrow-hover 1s linear infinite;
+}
+
+@keyframes arrow-hover {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: -10px;
+  }
+  100% {
+    right: 0;
+  }
+}

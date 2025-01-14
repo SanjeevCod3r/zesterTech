@@ -1,0 +1,30 @@
+.footerInfoTitle {
+  margin-bottom: 1rem;
+  color: var(--white-color);
+  font-family: var(--Raleway);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-semibold);
+  text-transform: capitalize;
+}
+
+.footerInfoWrapText {
+  max-width: 162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerInfoText {
+  line-height: 1.6;
+}
+
+.footerInfoTextLink {
+  color: var(--wetasphalt);
+  text-decoration: none;
+}
+
+.footerInfoTextLink:focus,
+.footerInfoTextLink:hover,
+.footerInfoTextLink:active {
+  color: var(--white-color);
+}

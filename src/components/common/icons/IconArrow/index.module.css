@@ -1,0 +1,17 @@
+.rightArrow {
+  transform: rotate(0);
+}
+.leftArrow {
+  transform: rotate(180deg);
+}
+.upArrow {
+  transform: rotate(-90deg);
+}
+.downArrow {
+  transform: rotate(90deg);
+}
+
+.iconArrow {
+  display: block;
+  width: 3rem;
+}

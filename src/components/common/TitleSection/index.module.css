@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.iconSubtitle {
+  width: 18px;
+}
+
+.subtitle {
+  display: flex;
+  gap: 0.8rem;
+  color: var(--watermelon);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--white-color);
+  font-family: var(--Raleway);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.wrapBtn {
+  width: 140px;
+  display: block;
+}

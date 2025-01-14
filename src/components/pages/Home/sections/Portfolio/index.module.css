@@ -1,0 +1,60 @@
+.sectionPortfolio {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-color);
+  padding: 0 0 0 var(--space-sidebar);
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  padding: 18.4rem var(--padding-container) 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapperTitle {
+  margin-bottom: 3rem;
+}
+
+.list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.listItem {
+  max-width: 400px;
+}
+
+@media (max-width: 998px) {
+  .wrapper {
+    padding: 18.4rem var(--padding-container) 20rem;
+  }
+  .sectionPortfolio {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 10rem var(--padding-container) 20rem;
+  }
+
+  .listItem {
+    max-width: 330px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 10rem var(--padding-container) 18rem;
+  }
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

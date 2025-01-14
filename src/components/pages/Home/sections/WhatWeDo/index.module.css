@@ -1,0 +1,132 @@
+.sectionWhatWeDo {
+  position: relative;
+  padding: 0 0 0 var(--space-sidebar);
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.infoWrap {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 18rem 1rem 15rem;
+}
+
+.text {
+  margin: 2rem 0 8rem;
+  max-width: 726px;
+  color: var(--fs-h5);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  row-gap: 5rem;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.percent {
+  position: relative;
+}
+
+.percentWrap {
+  width: 105px;
+  height: 105px;
+}
+
+.listItemTitle {
+  margin-bottom: 0.8rem;
+  color: var(--white-color);
+  font-family: var(--Raleway);
+  font-size: var(--fs-h5);
+  font-weight: var(--fw-semibold);
+  text-transform: capitalize;
+}
+
+.listItemText {
+  font-size: 1.6rem;
+  line-height: 160%;
+  max-width: 213px;
+}
+
+.shadowGradient {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.wavesImg {
+  position: absolute;
+  width: 100%;
+  bottom: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .infoWrap {
+    padding: 1rem var(--padding-container) 1rem 10rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: var(--main-container);
+  }
+}
+
+@media (max-width: 1024px) {
+  .infoWrap {
+    padding: 1rem var(--padding-container) 1rem 5rem;
+  }
+}
+
+@media (max-width: 998px) {
+  .percentWrap {
+    width: 80px;
+    height: 80px;
+  }
+
+  .listItem {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .imgWrap {
+    max-width: 400px;
+  }
+  .infoWrap {
+    padding: 1rem var(--padding-container);
+  }
+}

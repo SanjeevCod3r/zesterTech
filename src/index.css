@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* FONTS */
+
+  --Raleway: 'Raleway', sans-serif;
+  --Mulish: 'Mulish', sans-serif;
+
+  /* SIZES  */
+
+  --fs-small: 1.2rem;
+  --fs-main: 1.4rem;
+  --fs-medium: 1.6rem;
+  --fs-large: 1.8rem;
+  --fs-h5: 2rem;
+  --fs-h4: 2.4rem;
+  --fs-h3: 3.2rem;
+  --fs-h2: 4rem;
+  --fs-number-statistic: 4.8rem;
+  --fs-vertical-subtitle: 12rem;
+  --fs-vertical-title: 23rem;
+  --fs-percent: 2.6rem;
+  --fs-page-title: 6rem;
+  --fs-page-title-big: 18rem;
+
+  --fw-lighter: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-heavy-bold: 900;
+
+  --main-container: 1140px;
+  --padding-container: 1.5rem;
+  --space-sidebar: 14rem;
+
+  @media (max-width: 1440px) {
+    --fs-vertical-subtitle: 10rem;
+    --fs-vertical-title: 20rem;
+  }
+
+  @media (max-width: 1200px) {
+    --fs-vertical-subtitle: 8rem;
+    --fs-vertical-title: 18rem;
+  }
+
+  @media (max-width: 1024px) {
+    --space-sidebar: 0;
+    --fs-page-title-big: 10rem;
+  }
+
+  @media (max-width: 768px) {
+    --fs-page-title-big: 7rem;
+    --fs-vertical-title: 13rem;
+  }
+
+  @media (max-width: 576px) {
+    --fs-page-title: 3.6rem;
+    --fs-h2: 3.2rem;
+  }
+
+  /* COLORS */
+
+  --white-color: #ffffff;
+  --wetasphalt: #989cac;
+  --black: #000000;
+  --ruinedSmores: #020204;
+  --blackIsBlack: #0f1118;
+  --closedShutter: #26272c;
+  --blackHole: #0d0f16;
+  --watermelon: #ff455b;
+
+  --gradient: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
+  --bottom-line: 2px solid;
+  --bottom-line-color: rgba(#ffffff, 0.05);
+  --border-percent: 5px solid;
+  --border-line: 2px solid;
+  --border-color-dark: rgba(248, 248, 252, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%; /* 16px, 10px */
+}
+
+body {
+  font-family: var(--Mulish);
+  font-size: var(--fs-main); /* 14px */
+  font-weight: var(--fw-normal);
+  background-color: var(--blackHole);
+  color: var(--wetasphalt);
+  line-height: 1;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--wetasphalt);
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: var(--white-color);
+}
+
+img {
+  width: 100%;
+}

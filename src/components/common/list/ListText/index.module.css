@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listItem {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--fs-medium);
+  line-height: 1.6;
+}
+
+.listItemIcon img {
+  width: 24px;
+}
+
+.listItemText {
+  font-size: var(--fs-medium);
+  line-height: 1.6;
+}

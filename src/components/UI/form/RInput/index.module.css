@@ -1,0 +1,11 @@
+.input {
+  display: flex;
+  border: var(--border-line);
+  border-color: var(--border-color-dark);
+  background-color: transparent;
+  padding: 1.4rem 3rem;
+  width: 100%;
+  outline: none;
+  color: var(--white-color);
+  min-width: 20rem;
+}

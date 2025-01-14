@@ -1,0 +1,124 @@
+.sectionHero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 var(--space-sidebar);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.columnLeft {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.wrapImg {
+  display: block;
+  position: relative;
+}
+
+.wrapImgText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.mainImg {
+  max-width: 610px;
+}
+
+.sliderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding: 0 var(--padding-container) 0;
+  max-width: 400px;
+}
+
+.wrapperTitle {
+  max-width: 457px;
+}
+
+.text {
+  margin: 3rem 0 6rem;
+  font-size: var(--fs-h5);
+  line-height: 1.6;
+  max-width: 375px;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.scrollDownText {
+  display: block;
+  line-height: 1.6;
+  transform: rotate(-90deg);
+}
+
+.scrollDownIcon {
+  display: block;
+  animation: bounce 2s infinite;
+}
+.scrollDownIcon svg {
+  width: 18px;
+}
+
+.scrollDown:hover .scrollDownIcon {
+  animation: none;
+}
+
+@media (max-width: 998px) {
+  .wrapper {
+    justify-content: center;
+  }
+  .columnLeft {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .sliderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 0 var(--padding-container) 0;
+    max-width: 340px;
+  }
+
+  .scrollDown {
+    bottom: -16%;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

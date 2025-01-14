@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  transform: translate(0, 42px);
+  width: 100%;
+  padding: 0 7rem 0 16rem;
+  background-color: transparent;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.5s ease;
+}
+
+.scrolled {
+  background-color: var(--blackHole);
+  transform: translate(0, 0);
+  padding: 1rem 7rem 1rem 16rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.headerLogo {
+  width: 120px;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.headerTel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.headerTel img {
+  width: 24px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    transform: translate(0, 0);
+    padding: 1.5rem 3rem 1rem 10rem;
+  }
+}

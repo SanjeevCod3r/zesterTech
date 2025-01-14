@@ -1,0 +1,30 @@
+.item {
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  border: var(--border-line);
+  border-color: var(--border-color-dark);
+}
+
+.itemIcon {
+  margin-bottom: 2.4rem;
+}
+
+.itemIcon img {
+  max-width: 124px;
+}
+
+.ItemTitle {
+  font-size: var(--fs-medium);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    min-width: 260px;
+  }
+}
