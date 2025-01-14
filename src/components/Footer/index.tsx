@@ -27,7 +27,7 @@ export const Footer = () => {
             <div>
               <h5 className={styles.footerInfoTitle}>Address:</h5>
               <div className={styles.footerInfoWrapText}>
-                <p className={styles.footerInfoText}>An55 Lanka Varanasi, Utter Pradesh, IN 221005, INDIA</p>
+                <p className={styles.footerInfoText}>Gurugram, Haryana, HR 122002, INDIA</p>
               </div>
             </div>
             <FooterLinksColumn title='Hit us up:' list={hitUsUpList} />

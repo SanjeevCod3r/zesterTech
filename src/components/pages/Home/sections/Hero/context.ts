@@ -10,14 +10,14 @@ export const sliderContext = [
     "id": 2,
     "subtitle": "Building for tomorrow",
     "title": "Future-Ready Tools",
-    "text": "Our solutions are designed to grow with your brand, ensuring you're always prepared for the next big leap in tech.",
+    "text": "Our solutions are built to evolve with your brand, keeping you ready for future tech.",
     "btnText": "Get Started"
   },
   {
     "id": 3,
     "subtitle": "Engage and captivate",
     "title": "Creative Digital Experiences",
-    "text": "We craft engaging and interactive digital experiences that captivate your audience and drive results.",
+    "text": "We create engaging experiences that captivate your audience and drive results.",
     "btnText": "See Our Work"
   },
 ];

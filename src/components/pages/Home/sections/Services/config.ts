@@ -10,12 +10,6 @@ export const servicesList = [
     path: '/',
   },
   {
-    title: 'SEO Optimization',
-    text: 'Enhancing your website’s visibility and driving organic traffic for better results.',
-    icon: icon2,
-    path: '/',
-  },
-  {
     title: 'UI/UX Design',
     text: 'Creating engaging, user-friendly designs that deliver outstanding digital experiences.',
     icon: icon3,
@@ -24,19 +18,7 @@ export const servicesList = [
   {
     title: 'App Development',
     text: 'Developing high-performance mobile apps for iOS and Android platforms seamlessly.',
-    icon: icon1,
-    path: '/',
-  },
-  {
-    title: 'AI & Automation',
-    text: 'Leveraging AI and automation to streamline processes, boost efficiency, and drive innovation in your business',
     icon: icon2,
-    path: '/',
-  },
-  {
-    title: 'Tech Support',
-    text: 'Offering responsive and expert support to ensure your tech systems run smoothly and efficiently.',
-    icon: icon3,
     path: '/',
   },
 ];
