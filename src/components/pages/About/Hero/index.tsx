@@ -32,27 +32,27 @@ export const Hero = () => {
           <ul className={styles.list}>
             <li className={styles.listItem}>
               <div className={styles.listItemNumber}>
-                365<span>+</span>
+                10<span>+</span>
               </div>
-              <div className={styles.listItemText}>Satisfied clients</div>
+              <div className={styles.listItemText}>Global clients</div>
             </li>
             <li className={styles.listItem}>
               <div className={styles.listItemNumber}>
-                365<span>+</span>
+                30<span>+</span>
               </div>
-              <div className={styles.listItemText}>Satisfied clients</div>
+              <div className={styles.listItemText}>Indian clients</div>
             </li>
             <li className={styles.listItem}>
               <div className={styles.listItemNumber}>
-                365<span>+</span>
+                50<span>+</span>
               </div>
-              <div className={styles.listItemText}>Satisfied clients</div>
+              <div className={styles.listItemText}>Website</div>
             </li>
             <li className={styles.listItem}>
               <div className={styles.listItemNumber}>
-                365<span>+</span>
+                100000<span>+</span>
               </div>
-              <div className={styles.listItemText}>Satisfied clients</div>
+              <div className={styles.listItemText}>customer served</div>
             </li>
           </ul>
         </div>

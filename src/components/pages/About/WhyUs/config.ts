@@ -6,7 +6,8 @@ import icon4 from '~/assets/img/pages/home/services/icon1.svg';
 export const listWhyUs = [
   'The approach to each new project is individual, we treat equally every customer.',
   'Our web design company specializes in the professional creation of unique sites and mobile applicatoins.',
-  'The approach to each new project is individual, we treat equally every customer.',
+  'We prioritize transparency and communication throughout the entire process, keeping clients informed at every stage.',
+  'We treat every customer equally, ensuring a personalized and attentive service for all.',
 ];
 
 export const listBlockIcon = [

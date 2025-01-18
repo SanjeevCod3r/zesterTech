@@ -6,7 +6,7 @@ export const listSocialNetwork = [
     path: 'https://www.facebook.com/share/15Xwtaouf8/',
   },
   {
-    text: 'Tw',
+    text: 'X',
     path: 'https://x.com/zestertech',
   },
   {

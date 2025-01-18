@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className={styles.footerInfoColumnItem}>
               <ListLine listMenu={listSocialNetwork} type='link' />
             </div>
-            <div>&copy; All rights reserved. Zester {new Date().getFullYear()}</div>
+            <div>All  &copy; ZesterTech {new Date().getFullYear()}</div>
           </div>
           <div className={styles.footerInfoColumn}>
             <div>
